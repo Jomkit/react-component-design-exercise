@@ -1,0 +1,21 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Cell-lit {
+  background-color: white;
+  animation: .5s infinite normal beat;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 3;
+}
+
+@keyframes beat {
+  from {
+    background-color: black;
+  }
+}
