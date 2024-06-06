@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot (win state) 1`] = `
+<DocumentFragment>
+  <div
+    class="Board-fireworks"
+  />
+  <h1
+    class="Board-win"
+  >
+    You Win!
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Board"
+  >
+    <table>
+      <tbody>
+        <tr>
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+        </tr>
+        <tr>
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+        </tr>
+        <tr>
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+        </tr>
+        <tr>
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+        </tr>
+        <tr>
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+          <td
+            class="Cell Cell-lit"
+          />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;

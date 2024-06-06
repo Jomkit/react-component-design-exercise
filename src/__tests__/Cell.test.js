@@ -9,11 +9,16 @@ it("should render without crashing", () => {
 // Snapshot test
 it("matches snapshot", () => {
     let mockFunc = jest.fn();
-    const { asFragment } = render(<Cell isLit={false} />);
+    const { asFragment } = render(<Cell flipCellsAroundMe={()=>mockFunc()} isLit={true} />);
     expect(asFragment()).toMatchSnapshot();
 })
 
 it("should render with Cell-lit class if isLit=true", () => {
     const { container } = render(<Cell isLit={true} />);
     expect(container.querySelector(".Cell-lit")).toBeInTheDocument();
+})
+
+it("should render without Cell-lit class if no isLit", () => {
+    const { container } = render(<Cell />);
+    expect(container.querySelector(".Cell-lit")).not.toBeInTheDocument();
 })
